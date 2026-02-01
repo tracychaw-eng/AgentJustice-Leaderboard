@@ -43,4 +43,4 @@ task_limit = 30
 # Numeric tolerance for scoring (1% = 0.01)
 numeric_tolerance = 0.01
 
-# Re-run trigger: 2026-01-31T17:10Z - 30 tasks to avoid timeout
+# Re-run trigger: 2026-01-31T17:20Z - v1.12 with correct AgentBeats ID in results
