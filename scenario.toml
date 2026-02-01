@@ -44,4 +44,4 @@ task_limit = 15
 # Numeric tolerance for scoring (1% = 0.01)
 numeric_tolerance = 0.01
 
-# Re-run trigger: 2026-02-01T06:30Z - v1.14 with both datasets and question_type breakdown
+# Re-run trigger: 2026-02-01T06:25Z - v1.14 with purple agent image fix
