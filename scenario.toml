@@ -23,6 +23,7 @@ agentbeats_id = "019c15d8-ff24-7400-80b1-2948cdf8a372"  # <-- Submitters: Add yo
 [participants.env]
 # Submitters: Add any environment variables your purple agent needs
 OPENAI_API_KEY = "${OPENAI_API_KEY}"
+PURPLE_AGENT_MODE = "llm"
 
 # Assessment Configuration
 [config]
