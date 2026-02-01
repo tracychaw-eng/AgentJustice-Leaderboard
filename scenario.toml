@@ -18,7 +18,7 @@ OPENAI_API_KEY = "${OPENAI_API_KEY}"
 # Submitters: Fill in your purple agent's agentbeats_id below
 [[participants]]
 name = "purple_agent"
-agentbeats_id = ""  # <-- Submitters: Add your purple agent ID here
+agentbeats_id = "019c15d8-ff24-7400-80b1-2948cdf8a372"  # <-- Submitters: Add your purple agent ID here
 
 [participants.env]
 # Submitters: Add any environment variables your purple agent needs
