@@ -16,7 +16,7 @@ OPENAI_API_KEY = "${OPENAI_API_KEY}"
 # Purple Agent URL for A2A communication (Docker network)
 PURPLE_AGENT_URL = "http://purple_agent:9009"
 # Limit number of tasks to evaluate (0 = all tasks)
-TASK_LIMIT = "0"
+TASK_LIMIT = "30"
 
 # Purple Agent - Answer Generator
 # Submitters: Fill in your purple agent's agentbeats_id below
@@ -38,9 +38,9 @@ dataset = "canonical"
 purple_agent_mode = "llm"
 
 # Number of tasks to evaluate (0 = all tasks in dataset)
-task_limit = 0
+task_limit = 30
 
 # Numeric tolerance for scoring (1% = 0.01)
 numeric_tolerance = 0.01
 
-# Re-run trigger: 2026-01-31T17:00Z - Full run with all 50 canonical tasks
+# Re-run trigger: 2026-01-31T17:10Z - 30 tasks to avoid timeout
