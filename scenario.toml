@@ -43,4 +43,4 @@ task_limit = 5
 # Numeric tolerance for scoring (1% = 0.01)
 numeric_tolerance = 0.01
 
-# Re-run trigger: 2026-02-01T02:25Z - use v1.8
+# Re-run trigger: 2026-02-01T04:10Z - purple agent v1.8 now pushed
