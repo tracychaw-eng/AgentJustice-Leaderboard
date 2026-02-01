@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/tracychaw-eng/agentjustice-green@sha256:261911c9bb127d01096da4dc3e71fe985b1dcfb8452163fab900d417c9310a4a",
+    "purple_agent": "ghcr.io/tracychaw-eng/agentjustice-purple@sha256:370a7826cf60190dc76383d427a7f9eccbd927dc1eef9fe4e338e92e40c7e4f8",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-02-01T06:08:03Z",
+  "github_actions": {
+    "run_url": "https://github.com/tracychaw-eng/AgentJustice-Leaderboard/actions/runs/21557818202",
+    "run_logs_url": "https://api.github.com/repos/tracychaw-eng/AgentJustice-Leaderboard/actions/runs/21557818202/logs",
+    "ref": "refs/heads/submission-tracychaw-eng-20260131",
+    "sha": "b24481ae675bc30b584f3df52a387373e8e4a274",
+    "repository_url": "https://github.com/tracychaw-eng/AgentJustice-Leaderboard",
+    "workflow_ref": "tracychaw-eng/AgentJustice-Leaderboard/.github/workflows/run-scenario.yml@refs/heads/submission-tracychaw-eng-20260131",
+    "workflow_sha": "b24481ae675bc30b584f3df52a387373e8e4a274"
+  }
+}
