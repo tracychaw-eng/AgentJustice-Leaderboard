@@ -1,0 +1,64 @@
+{
+  "participants": {
+    "agent": "purple_agent"
+  },
+  "run_id": "run_20260201_044341_d5963209",
+  "timestamp": "2026-02-01T04:44:23.661878Z",
+  "results": [
+    {
+      "task_id": 0,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Market Analysis"
+    },
+    {
+      "task_id": 1,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Trends"
+    },
+    {
+      "task_id": 2,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Beat or Miss"
+    },
+    {
+      "task_id": 3,
+      "source": "canonical",
+      "final_score": 0.8,
+      "semantic_score": 1.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Complex Retrieval"
+    },
+    {
+      "task_id": 4,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Qualitative Retrieval"
+    }
+  ],
+  "summary": {
+    "canonical_count": 5,
+    "adversarial_count": 0,
+    "total_count": 5
+  }
+}
