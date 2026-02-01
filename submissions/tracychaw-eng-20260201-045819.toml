@@ -1,0 +1,46 @@
+# AgentJustice Leaderboard - Assessment Configuration
+#
+# Green Agent: AgentJustice Evaluator
+#   - Orchestrates evaluation using MCP-based judges
+#   - Computes hybrid scores with semantic, numeric, and contradiction analysis
+#
+# Purple Agent: Financial Answering Agent (submitted by participants)
+#   - Generates answers to financial questions from FinanceBench dataset
+
+[green_agent]
+agentbeats_id = "019c15cc-a1e3-7481-8c68-8d7ad1045bd2"
+
+[green_agent.env]
+# OpenAI API key for MCP judges (semantic, numeric, contradiction)
+OPENAI_API_KEY = "${OPENAI_API_KEY}"
+# Purple Agent URL for A2A communication (Docker network)
+PURPLE_AGENT_URL = "http://purple_agent:9009"
+# Limit number of tasks to evaluate (0 = all tasks)
+TASK_LIMIT = "30"
+
+# Purple Agent - Answer Generator
+# Submitters: Fill in your purple agent's agentbeats_id below
+[[participants]]
+name = "purple_agent"
+agentbeats_id = "019c15d8-ff24-7400-80b1-2948cdf8a372"  # <-- Submitters: Add your purple agent ID here
+
+[participants.env]
+# Submitters: Add any environment variables your purple agent needs
+OPENAI_API_KEY = "${OPENAI_API_KEY}"
+PURPLE_AGENT_MODE = "llm"
+
+# Assessment Configuration
+[config]
+# Dataset to evaluate: "canonical" (50 tasks) or "adversarial"
+dataset = "canonical"
+
+# Purple agent mode: "llm" (generate answers) or "gold" (return gold answers for testing)
+purple_agent_mode = "llm"
+
+# Number of tasks to evaluate (0 = all tasks in dataset)
+task_limit = 30
+
+# Numeric tolerance for scoring (1% = 0.01)
+numeric_tolerance = 0.01
+
+# Re-run trigger: 2026-01-31T17:10Z - 30 tasks to avoid timeout
