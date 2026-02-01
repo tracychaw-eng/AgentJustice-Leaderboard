@@ -1,0 +1,344 @@
+{
+  "participants": {
+    "agent": "019c15d8-ff24-7400-80b1-2948cdf8a372"
+  },
+  "run_id": "run_20260201_061844_bc25c9a0",
+  "timestamp": "2026-02-01T06:22:35.086845Z",
+  "results": [
+    {
+      "task_id": 0,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Market Analysis"
+    },
+    {
+      "task_id": 1,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Trends"
+    },
+    {
+      "task_id": 2,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Beat or Miss"
+    },
+    {
+      "task_id": 3,
+      "source": "canonical",
+      "final_score": 0.8,
+      "semantic_score": 1.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Complex Retrieval"
+    },
+    {
+      "task_id": 4,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Qualitative Retrieval"
+    },
+    {
+      "task_id": 5,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Complex Retrieval"
+    },
+    {
+      "task_id": 6,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Qualitative Retrieval"
+    },
+    {
+      "task_id": 7,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Quantitative Retrieval"
+    },
+    {
+      "task_id": 8,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Beat or Miss"
+    },
+    {
+      "task_id": 9,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Numerical Reasoning"
+    },
+    {
+      "task_id": 10,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Quantitative Retrieval"
+    },
+    {
+      "task_id": 11,
+      "source": "canonical",
+      "final_score": 0.7089,
+      "semantic_score": 0.8889,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Financial Modeling"
+    },
+    {
+      "task_id": 12,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Numerical Reasoning"
+    },
+    {
+      "task_id": 13,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Trends"
+    },
+    {
+      "task_id": 14,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Numerical Reasoning"
+    },
+    {
+      "task_id": 0,
+      "source": "adversarial",
+      "final_score": 0.0,
+      "semantic_score": 0.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Quantitative Retrieval",
+      "transformation_type": "wrong_metric_right_number",
+      "expected_outcome": "fail"
+    },
+    {
+      "task_id": 1,
+      "source": "adversarial",
+      "final_score": 0.0,
+      "semantic_score": 0.0,
+      "numeric_score": 0.5,
+      "contradiction_violated": true,
+      "difficulty_level": "Medium",
+      "question_type": "Beat or Miss",
+      "transformation_type": "wrong_metric_right_number",
+      "expected_outcome": "fail"
+    },
+    {
+      "task_id": 2,
+      "source": "adversarial",
+      "final_score": 0.0,
+      "semantic_score": 0.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Market Analysis",
+      "transformation_type": "wrong_metric_right_number",
+      "expected_outcome": "fail"
+    },
+    {
+      "task_id": 3,
+      "source": "adversarial",
+      "final_score": 0.0,
+      "semantic_score": 0.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": true,
+      "difficulty_level": "Easy",
+      "question_type": "Numerical Reasoning",
+      "transformation_type": "right_metric_wrong_number",
+      "expected_outcome": "fail"
+    },
+    {
+      "task_id": 4,
+      "source": "adversarial",
+      "final_score": 0.0,
+      "semantic_score": 0.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Adjustments",
+      "transformation_type": "right_metric_wrong_number",
+      "expected_outcome": "fail"
+    },
+    {
+      "task_id": 5,
+      "source": "adversarial",
+      "final_score": 0.25,
+      "semantic_score": 0.5,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Market Analysis",
+      "transformation_type": "right_metric_wrong_number",
+      "expected_outcome": "fail"
+    },
+    {
+      "task_id": 6,
+      "source": "adversarial",
+      "final_score": 0.31999999999999995,
+      "semantic_score": 1.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Numerical Reasoning",
+      "transformation_type": "wrong_unit_scale",
+      "expected_outcome": "fail"
+    },
+    {
+      "task_id": 7,
+      "source": "adversarial",
+      "final_score": 0.7575,
+      "semantic_score": 0.9375,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Qualitative Retrieval",
+      "transformation_type": "wrong_unit_scale",
+      "expected_outcome": "fail"
+    },
+    {
+      "task_id": 8,
+      "source": "adversarial",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Financial Modeling",
+      "transformation_type": "wrong_unit_scale",
+      "expected_outcome": "fail"
+    },
+    {
+      "task_id": 9,
+      "source": "adversarial",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Qualitative Retrieval",
+      "transformation_type": "multi_number_conflict",
+      "expected_outcome": "contradiction_violated"
+    },
+    {
+      "task_id": 10,
+      "source": "adversarial",
+      "final_score": 0.81,
+      "semantic_score": 1.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Qualitative Retrieval",
+      "transformation_type": "multi_number_conflict",
+      "expected_outcome": "contradiction_violated"
+    },
+    {
+      "task_id": 11,
+      "source": "adversarial",
+      "final_score": 0.82,
+      "semantic_score": 1.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Financial Modeling",
+      "transformation_type": "multi_number_conflict",
+      "expected_outcome": "contradiction_violated"
+    },
+    {
+      "task_id": 12,
+      "source": "adversarial",
+      "final_score": 0.0,
+      "semantic_score": 0.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Quantitative Retrieval",
+      "transformation_type": "keyword_stuffing",
+      "expected_outcome": "fail"
+    },
+    {
+      "task_id": 13,
+      "source": "adversarial",
+      "final_score": 0.0,
+      "semantic_score": 0.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Adjustments",
+      "transformation_type": "keyword_stuffing",
+      "expected_outcome": "fail"
+    },
+    {
+      "task_id": 14,
+      "source": "adversarial",
+      "final_score": 0.0,
+      "semantic_score": 0.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Market Analysis",
+      "transformation_type": "keyword_stuffing",
+      "expected_outcome": "fail"
+    }
+  ],
+  "summary": {
+    "canonical_count": 15,
+    "adversarial_count": 15,
+    "total_count": 30
+  }
+}
