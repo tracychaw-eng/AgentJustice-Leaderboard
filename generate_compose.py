@@ -66,6 +66,7 @@ services:
     environment:{green_env}
     volumes:
       - ./output:/app/output
+      - ./a2a-scenario.toml:/app/scenario.toml:ro
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:{green_port}/.well-known/agent-card.json"]
       interval: 5s
