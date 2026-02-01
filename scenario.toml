@@ -36,7 +36,7 @@ dataset = "canonical"
 purple_agent_mode = "llm"
 
 # Number of tasks to evaluate (0 = all tasks in dataset)
-task_limit = 0
+task_limit = 5
 
 # Numeric tolerance for scoring (1% = 0.01)
 numeric_tolerance = 0.01
