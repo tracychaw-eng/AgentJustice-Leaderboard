@@ -1,0 +1,314 @@
+{
+  "participants": {
+    "agent": "019c15d8-ff24-7400-80b1-2948cdf8a372"
+  },
+  "run_id": "run_20260201_060353_8cc2225f",
+  "timestamp": "2026-02-01T06:08:01.967241Z",
+  "results": [
+    {
+      "task_id": 0,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Market Analysis"
+    },
+    {
+      "task_id": 1,
+      "source": "canonical",
+      "final_score": 0.975,
+      "semantic_score": 1.0,
+      "numeric_score": 0.95,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Trends"
+    },
+    {
+      "task_id": 2,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Beat or Miss"
+    },
+    {
+      "task_id": 3,
+      "source": "canonical",
+      "final_score": 0.8,
+      "semantic_score": 1.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Complex Retrieval"
+    },
+    {
+      "task_id": 4,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Qualitative Retrieval"
+    },
+    {
+      "task_id": 5,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Complex Retrieval"
+    },
+    {
+      "task_id": 6,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Qualitative Retrieval"
+    },
+    {
+      "task_id": 7,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Quantitative Retrieval"
+    },
+    {
+      "task_id": 8,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Beat or Miss"
+    },
+    {
+      "task_id": 9,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Numerical Reasoning"
+    },
+    {
+      "task_id": 10,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Quantitative Retrieval"
+    },
+    {
+      "task_id": 11,
+      "source": "canonical",
+      "final_score": 0.95,
+      "semantic_score": 0.9,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Financial Modeling"
+    },
+    {
+      "task_id": 12,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Numerical Reasoning"
+    },
+    {
+      "task_id": 13,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Trends"
+    },
+    {
+      "task_id": 14,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Numerical Reasoning"
+    },
+    {
+      "task_id": 15,
+      "source": "canonical",
+      "final_score": 0.81,
+      "semantic_score": 1.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Complex Retrieval"
+    },
+    {
+      "task_id": 16,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Trends"
+    },
+    {
+      "task_id": 17,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Qualitative Retrieval"
+    },
+    {
+      "task_id": 18,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Numerical Reasoning"
+    },
+    {
+      "task_id": 19,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Numerical Reasoning"
+    },
+    {
+      "task_id": 20,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Qualitative Retrieval"
+    },
+    {
+      "task_id": 21,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Numerical Reasoning"
+    },
+    {
+      "task_id": 22,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Qualitative Retrieval"
+    },
+    {
+      "task_id": 23,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Numerical Reasoning"
+    },
+    {
+      "task_id": 24,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Qualitative Retrieval"
+    },
+    {
+      "task_id": 25,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Numerical Reasoning"
+    },
+    {
+      "task_id": 26,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Easy",
+      "question_type": "Qualitative Retrieval"
+    },
+    {
+      "task_id": 27,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Quantitative Retrieval"
+    },
+    {
+      "task_id": 28,
+      "source": "canonical",
+      "final_score": 0.8,
+      "semantic_score": 1.0,
+      "numeric_score": 0.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Medium",
+      "question_type": "Qualitative Retrieval"
+    },
+    {
+      "task_id": 29,
+      "source": "canonical",
+      "final_score": 1.0,
+      "semantic_score": 1.0,
+      "numeric_score": 1.0,
+      "contradiction_violated": false,
+      "difficulty_level": "Hard",
+      "question_type": "Financial Modeling"
+    }
+  ],
+  "summary": {
+    "canonical_count": 30,
+    "adversarial_count": 0,
+    "total_count": 30
+  }
+}
