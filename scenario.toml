@@ -43,4 +43,4 @@ task_limit = 5
 # Numeric tolerance for scoring (1% = 0.01)
 numeric_tolerance = 0.01
 
-# Re-run trigger: 2026-01-31T16:50Z - v1.11 with detailed_results.json to avoid agentbeats-client overwrite
+# Re-run trigger: 2026-01-31T16:55Z - v1.11 both images pushed
