@@ -43,4 +43,4 @@ task_limit = 5
 # Numeric tolerance for scoring (1% = 0.01)
 numeric_tolerance = 0.01
 
-# Re-run trigger: 2026-02-01T04:45Z - v1.10 with shared output volume for results
+# Re-run trigger: 2026-01-31T16:00Z - v1.10 both images pushed, testing shared volume output
