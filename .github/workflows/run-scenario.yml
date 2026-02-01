@@ -86,7 +86,13 @@ jobs:
       - name: Copy files to submission directory
         run: |
           cp scenario.toml submissions/${{ steps.metadata.outputs.unique_name }}.toml
-          cp output/results.json results/${{ steps.metadata.outputs.unique_name }}.json
+          # Use detailed_results.json from green agent (includes full evaluation data)
+          # Falls back to results.json if detailed_results.json doesn't exist
+          if [ -f output/detailed_results.json ]; then
+            cp output/detailed_results.json results/${{ steps.metadata.outputs.unique_name }}.json
+          else
+            cp output/results.json results/${{ steps.metadata.outputs.unique_name }}.json
+          fi
           cp output/provenance.json submissions/${{ steps.metadata.outputs.unique_name }}.provenance.json
 
       - name: Determine target repository
